@@ -1,0 +1,50 @@
+.boid-red
+{
+    font-weight: 900;
+    color: rgb(248, 90, 33);
+}
+
+.underlined-red-boid
+{
+    margin: 15px 0px;
+    display: inline-block;
+    font-weight: 900;
+    padding: 0px 1px;
+    border-bottom: 1px solid rgb(248, 90, 33);
+}
+
+.button-boder-cuver, .button-boder-letter-red-cuver
+{
+    background-color: #fff;
+    border: 0.5px solid rgb(146, 146, 146);
+    border-radius: 10px;
+    padding: 2px 5px;   
+}
+
+.button-boder-letter-red-cuver
+{
+    color: rgb(248, 90, 33);
+    font-size: 5px;
+    border: 1px solid rgb(248, 90, 33);
+    padding: 5px 12px;
+    letter-spacing: 0.5px;
+}
+
+.button-boder-cuver:hover
+{
+    background-color: rgb(146, 146, 146);
+    color: white;
+}
+
+.button-boder-letter-red-cuver:hover
+{
+    color: white;
+    background-color: rgb(248, 90, 33);
+}
+
+.split-screen
+{
+    display: inline-block;
+    width: 45%;
+    margin: 0px 4% 0px 0px;
+}

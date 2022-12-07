@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*
+{
+    font-size: 62.5%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+    width: 480px;
+    /* background-color: #fff; */
+}
+
+header
+{
+    font-size: 8px;
+    margin: 25px 30px;
+    letter-spacing: 2px;
+    
+}
+
+.header-left a
+{
+    background-color: #000;
+    color: white;
+    font-size: 10px;
+    padding: 4px 9px;
+    border-radius: 3px;
+    margin: 0px 3px 0px 0px;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+
+header .header-left
+{
+    display: inline-block;
+}
+
+header .icon-frist
+{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+header .icon-right
+{
+    font-size: 12px;
+    float: right;
+    margin: 0px 3px;
+    
+}
+
+.body-page
+{
+    margin: 0px 30px;
+    background-color: #fff;
+}
+
+.body-page .title
+{
+    margin: 10px 0px;
+}
+
+.title .introduce
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+
+.title .introduce .anh
+{
+    width: 200px;
+    height: 250px;
+}
+
+.introduce .name
+{
+    display: inline-block;
+    font-size: 4px;
+    margin: 10px 30px;
+}
+
+.introduce .name h2
+{
+    font-size: 18px;
+    margin: 20px 0px;
+
+}
+
+.introduce .statistical li
+{
+    display: inline-block;
+    font-size: 12px;
+    margin:  10px 12px 0px 0px;
+}
+
+.introduce .statistical .note
+{
+    font-size: 5px;
+    font-weight: 400;
+    color: black;
+}
+
+.title .about-me
+{
+    font-size: 12px;
+}
+
+.title .about-me h3
+{
+    display: inline-block;
+    font-size: 5px;
+    margin: 10px 0px;
+}
+
+.title .dowload
+{
+    display: flex;
+    justify-self: center; /*set khong dc*/
+    color: rgb(248, 90, 33);
+    font-size: 8px;
+    padding: 3px 15px;
+    margin: 20px 0px 20px 170px;
+    border: 1px solid rgb(248, 90, 33);
+}
+
+.select-large
+{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.select-large .select-large-child
+{
+    font-size: 8px;
+}
+
+.select-small__button
+{
+    font-size: 6px;
+    margin: 3px; 
+}
+
+.list-experience-large h3
+{
+    margin-right: 80%;
+}
+
+.list-experience-small
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-experience-child__head
+{
+    font-weight: 900;
+    font-size: 5px;
+}
+
+.list-experience-child__head h3
+{
+    display: block;
+    margin: 4px 0px 0px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.list-experience-child__head h4
+{
+    font-size: 8px;
+    margin: 4px 0px 0px;
+}
+
+.list-experience-child__content
+{
+    margin: 10px 0px;
+}
+
+.list-experience-child__content li
+{
+    margin: 8px 0px 8px 8px;
+}
+
+.work-large
+{
+    margin: 20px 0px;
+}
+
+.work-small__child
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 248, 248);
+    margin: 10px 0px;
+}
+
+.work-small__child__content
+{
+    display: inline-block;
+    width: 44%;
+    margin: 20px 4%;
+    font-size: 10px;
+}
+
+.work-small__child__content h3
+{
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.work-small__child__content .button
+{
+    margin: 18px 0px 0px 0px;
+
+}
+
+.work-small__child img
+{
+    margin:20px 8%;
+    width: 35%;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0px;
+    font-size: 15px;
+}
+
+.footer > div
+{
+    margin: 10px 0px;
+}
+
+.footer h4
+{
+    font-size: 6px;
+    color:  rgb(127, 127, 127);
+}
+
+.footer h3
+{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.footer .button
+{
+    background-color: #000;
+    margin: 5px;
+}
+
+.footer > p
+{
+    font-size: 5px;
+    color: rgb(127, 127, 127);
+    margin-top: 40px;
+}
