@@ -1,0 +1,77 @@
+body
+{
+    background-color: aquamarine;
+}
+
+.taskbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskbar img
+{
+    margin-left: 40px;
+}
+
+.taskbar__menu
+{
+
+}
+
+.taskbar__menu__item
+{
+    
+}
+
+.taskbar__menu__list li
+{
+    display: inline-block;
+}
+
+.taskbar__menu__item__outer
+{
+    color: #58468c;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 49px 23px;
+    text-decoration-line: none;
+}
+
+.taskbar__menu__item__outer:hover
+{
+    color: #ff8a73;
+}
+
+.taskbar__menu__sub-list
+{
+    display: none;
+    background-color: white;
+    position: absolute;
+}
+
+.taskbar__menu__sub-list li
+{
+    display: block;
+}
+
+
+
+
+.taskbar__left
+{
+    margin-right: 40px;
+}
+
+.item-left
+{
+    padding: 49px 11px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.item-left:hover
+{
+    color: #ff8a73;
+}
