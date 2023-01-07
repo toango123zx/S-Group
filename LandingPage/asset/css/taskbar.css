@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body
+{
+    margin: 0px;
+}
+
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
 body
 {
     background-color: aquamarine;
@@ -8,6 +20,9 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
 }
 
 .taskbar img
@@ -39,25 +54,41 @@ body
     text-decoration-line: none;
 }
 
-.taskbar__menu__item__outer:hover
+.taskbar__menu__inner
 {
-    color: #ff8a73;
+    display: none;  
+    background-color: white;
+    position: absolute;
+    margin-top: 49px;
+    width: 265px;
+    border-radius: 10px;
 }
 
 .taskbar__menu__sub-list
 {
-    display: none;
-    background-color: white;
-    position: absolute;
+    padding: 23px 22px;
 }
 
 .taskbar__menu__sub-list li
 {
     display: block;
+    padding: 10px 0px;
 }
 
+.taskbar__menu__sub-list li a
+{
+    text-decoration-line: none;
+}
 
+/* .taskbar__menu__item__outer:hover .taskbar__menu__sub-list
+{
+    display: block;
+} */
 
+.taskbar__menu__sub-list__item
+{
+    font-weight: 300;
+}
 
 .taskbar__left
 {
@@ -71,7 +102,3 @@ body
     font-weight: 300;
 }
 
-.item-left:hover
-{
-    color: #ff8a73;
-}

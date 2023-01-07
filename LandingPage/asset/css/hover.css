@@ -1,0 +1,14 @@
+.taskbar__menu__item__outer:hover
+{
+    color: #ff8a73;
+}
+
+.taskbar__menu__item:hover .taskbar__menu__inner
+{
+    display: block;
+}
+
+.item-left:hover
+{
+    color: #ff8a73;
+}
